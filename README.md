@@ -1,38 +1,45 @@
-Digit Recognizer: PyTorch vs TensorFlow
-This project compares two popular deep learning frameworks, PyTorch and TensorFlow, in a classic image classification problem: the Digit Recognizer competition on Kaggle.
+# PyTorch vs TensorFlow: Digit Recognizer Comparison
 
-Overview
-In this notebook, I implement the same Convolutional Neural Network (CNN) architecture using both PyTorch and TensorFlow to classify handwritten digits (0-9) from the MNIST dataset. The key steps include:
+This project presents a comparison between **PyTorch** and **TensorFlow** implementations for digit recognition using the **MNIST dataset**. The project includes model building and evaluation for **classifying handwritten digits (0-9)**.
 
-Data Loading and Preprocessing: Normalize and reshape the input images.
-Model Building: Construct CNNs in both frameworks.
-Training: Train the models and compare their performance on validation data.
-Evaluation: Validate and predict the test set, followed by submission generation for Kaggle.
-This notebook will help you understand how each framework handles common deep learning tasks like model definition, training, and evaluation.
+## Table of Contents
+- [Overview](#overview)
+- [Dataset](#dataset)
+- [Model Implementations](#model-implementations)
+- [Requirements](#requirements)
+- [Usage](#usage)
+- [Training Results](#training-results)
+- [Evaluation](#evaluation)
+- [Submission](#submission)
+- [Links](#links)
+- [License](#license)
 
-Notebook Link
-You can view and run the notebook on Kaggle using the following link:
-[Digit Recognizer: PyTorch vs TensorFlow
-](https://www.kaggle.com/code/ahmedgaitani/digit-recognizer-code-dl-tf-vs-pt-99)
-Dataset
-The dataset used in this project is the Digit Recognizer dataset available on Kaggle. It consists of 42,000 grayscale images of handwritten digits for training and 28,000 images for testing.
+## Overview
+This project compares the two most popular deep learning frameworks:
+- **TensorFlow**: Known for its flexibility and ease of use for both beginners and experts.
+- **PyTorch**: Preferred by researchers for its dynamic computational graphs and intuitive API.
 
-Access the dataset here:
-[Digit Recognizer Dataset on Kaggle](https://www.kaggle.com/competitions/digit-recognizer)
+Each framework is used to build Convolutional Neural Networks (CNNs) to recognize handwritten digits.
 
-Table of Contents
-Imports: Loading the necessary libraries for both frameworks.
-Data Loading and Preprocessing: Loading and preparing the dataset.
-Model Definition: Constructing the CNN models using TensorFlow and PyTorch.
-Training: Training the models on the training dataset.
-Evaluation: Evaluating the models on the validation dataset.
-Prediction and Submission: Making predictions on the test set and preparing the submission files.
-Requirements
-To run this notebook, you need the following libraries:
+## Dataset
+The dataset used for training and testing is the **MNIST dataset** from Kaggle. This dataset contains grayscale images of handwritten digits (0-9), and each image is of size 28x28 pixels.
 
-TensorFlow
-PyTorch
-Numpy
-Pandas
-Scikit-learn
-Matplotlib (optional, for visualizing results)
+You can access the dataset from [Kaggle's Digit Recognizer Competition](https://www.kaggle.com/competitions/digit-recognizer).
+
+## Model Implementations
+- **TensorFlow Implementation**: A CNN model was built using TensorFlow and Keras to classify the images.
+- **PyTorch Implementation**: The same architecture was implemented using PyTorch to provide a direct comparison.
+
+## Requirements
+To run the project, you need the following libraries:
+- **Python 3.8+**
+- **TensorFlow 2.0+**
+- **PyTorch 1.6+**
+- **NumPy**
+- **Matplotlib**
+- **Pandas**
+  
+You can install the required libraries using:
+
+```bash
+pip install -r requirements.txt
