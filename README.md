@@ -39,7 +39,9 @@ To run the project, you need the following libraries:
 - **Matplotlib**
 - **Pandas**
   
-You can install the required libraries using:
+## Links
+- **Project Code**: [Kaggle Notebook](https://www.kaggle.com/code/ahmedgaitani/digit-recognizer-code-dl-tf-vs-pt-99)
+- **Dataset**: [Kaggle Digit Recognizer Competition](https://www.kaggle.com/competitions/digit-recognizer)
 
-```bash
-pip install -r requirements.txt
+
+
